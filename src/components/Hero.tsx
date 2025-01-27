@@ -12,8 +12,10 @@ export function Hero() {
         Hello, I am Shreyas
       </Typography>
       <Typography variant="body1" className="text-xl mb-8 max-w-xl">
-        I am a passionate Frontend Developer building clean and responsive
-        websites using ReactJS, TailwindCSS, and modern technologies.
+        a Frontend Developer with a passion for turning complex ideas into
+        functional, responsive, and visually stunning web applications. With
+        expertise in ReactJS, Material-UI, and Tailwind CSS, I build experiences
+        that users love to interact with.
       </Typography>
       <a
         href="#projects"

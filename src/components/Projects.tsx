@@ -18,7 +18,7 @@ export function Projects() {
                   component="div"
                   className="font-bold mb-2"
                 >
-                  Project {project}
+                  Hotel Configuration System
                 </Typography>
                 <Typography variant="body2" className="text-gray-400">
                   A description of the project showcasing the key features and

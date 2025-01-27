@@ -6,9 +6,14 @@ export function About() {
       <div className="container mx-auto px-5">
         <h2 className="text-4xl font-bold text-center mb-10">About Me</h2>
         <p className="text-lg max-w-3xl mx-auto text-center">
-          I am a Frontend Trainee Engineer at Hudini, dedicated to creating
-          functional and visually appealing user interfaces. My expertise lies
-          in ReactJS and modern styling tools such as TailwindCSS.
+          I'm a Frontend Trainee Engineer (ReactJS) at Hudini, with experience
+          in creating scalable and maintainable web applications. My strengths
+          lie in designing intuitive interfaces, implementing pixel-perfect
+          designs, and ensuring seamless user interactions. I’m always up for
+          learning new technologies and improving my craft to deliver
+          high-quality web solutions. Skills Include: Languages: JavaScript
+          (ES6+), TypeScript, HTML5, CSS3/SCSS Frameworks/Libraries: ReactJS,
+          Next.js, Tailwind CSS, Material-UI Tools: Git, Figma, VS Code, Postman
         </p>
       </div>
     </section>
