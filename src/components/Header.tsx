@@ -8,10 +8,10 @@ export function Header() {
         <a href="#about" className="hover:text-orange-400">
           About
         </a>
-        <a href="#projects" className="hover:text-blue-400">
+        <a href="#projects" className="hover:text-orange-400">
           Projects
         </a>
-        <a href="#contact" className="hover:text-blue-400">
+        <a href="#contact" className="hover:text-orange-400">
           Contact
         </a>
       </nav>
