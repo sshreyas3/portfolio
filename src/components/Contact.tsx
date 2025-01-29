@@ -2,7 +2,10 @@ import React from "react";
 
 export function Contact() {
   return (
-    <section id="contact" className="py-20 bg-gray-800">
+    <section
+      id="contact"
+      className="py-20 bg-gradient-to-b from-customPurple to-customRose"
+    >
       <div className="container mx-auto px-5">
         <h2 className="text-4xl font-bold text-center mb-10">Contact Me</h2>
         <form className="max-w-2xl mx-auto space-y-5">

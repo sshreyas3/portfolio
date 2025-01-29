@@ -3,16 +3,16 @@ import { Typography } from "@mui/material";
 
 export function Hero() {
   return (
-    <section className="flex flex-col items-center justify-center h-screen text-center bg-gradient-to-b from-gray-900 to-gray-800">
+    <section className="flex flex-col items-center justify-center h-screen text-center bg-gradient-to-b from-customPurple to-customRose">
       <Typography
         variant="h2"
         component="h2"
-        className="text-5xl font-extrabold mb-4"
+        className="text-5xl font-semibold mb-4 "
       >
         Hello, I am Shreyas
       </Typography>
       <Typography variant="body1" className="text-xl mb-8 max-w-xl">
-        a Frontend Developer with a passion for turning complex ideas into
+        A Frontend Developer with a passion for turning complex ideas into
         functional, responsive, and visually stunning web applications. With
         expertise in ReactJS, Material-UI, and Tailwind CSS, I build experiences
         that users love to interact with.

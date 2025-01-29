@@ -2,7 +2,10 @@ import React from "react";
 
 export function About() {
   return (
-    <section id="about" className="py-20 bg-gray-800">
+    <section
+      id="about"
+      className="py-20 bg-gradient-to-b  from-customRose to-customPurple"
+    >
       <div className="container mx-auto px-5">
         <h2 className="text-4xl font-bold text-center mb-10">About Me</h2>
         <p className="text-lg max-w-3xl mx-auto text-center">
