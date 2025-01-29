@@ -3,26 +3,32 @@ import { Typography } from "@mui/material";
 
 export function Hero() {
   return (
-    <section className="flex flex-col items-center justify-center h-screen text-center bg-gradient-to-b from-customPurple to-customRose">
-      <Typography
-        variant="h2"
-        component="h2"
-        className="text-5xl font-semibold mb-4 "
+    <section className="flex flex-col items-center bg-customImg bg-cover justify-center h-screen text-center">
+      {/* <div className="absolute top-0 left-0 w-full h-full">
+        <Typography
+          variant="h2"
+          component="h2"
+          className=" relative top-80 right-8 text-5xl font-semibold text-customOffWhite mb-4"
+        >
+          Hello.
+        </Typography>
+      </div> */}
+
+      {/* <Typography
+        variant="body1"
+        className="text-xl mb-8 max-w-xl text-customOffWhite text-left"
       >
-        Hello, I am Shreyas
-      </Typography>
-      <Typography variant="body1" className="text-xl mb-8 max-w-xl">
         A Frontend Developer with a passion for turning complex ideas into
         functional, responsive, and visually stunning web applications. With
         expertise in ReactJS, Material-UI, and Tailwind CSS, I build experiences
         that users love to interact with.
-      </Typography>
-      <a
+      </Typography> */}
+      {/* <a
         href="#projects"
-        className="px-6 py-3 bg-blue-500 rounded-lg text-lg hover:bg-blue-600 transition"
+        className="relative top-80 px-4 py-3 bg-customOffWhite rounded-xl text-gray-900 hover:bg-colorBronze hover:text-colorSomeBlack transition"
       >
         See My Work
-      </a>
+      </a> */}
     </section>
   );
 }

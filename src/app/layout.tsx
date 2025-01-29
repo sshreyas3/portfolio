@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Outfit, Ovo } from "next/font/google";
+import { Outfit, Ovo, Roboto } from "next/font/google";
 import "./globals.css";
 
 const outfitFont = Outfit({
@@ -8,6 +8,10 @@ const outfitFont = Outfit({
 });
 
 const ovoFont = Ovo({
+  subsets: ["latin"],
+  weight: ["400"],
+});
+const roboto = Roboto({
   subsets: ["latin"],
   weight: ["400"],
 });
@@ -25,7 +29,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${outfitFont.className} ${ovoFont.className} antialiased`}
+        className={`${outfitFont.className} ${ovoFont.className} ${roboto.className} antialiased`}
       >
         {children}
       </body>
