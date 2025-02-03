@@ -1,34 +1,25 @@
 import React from "react";
-import { Typography } from "@mui/material";
+import { motion } from "framer-motion";
 
 export function Hero() {
   return (
-    <section className="flex flex-col items-center bg-customImg bg-cover justify-center h-screen text-center">
-      {/* <div className="absolute top-0 left-0 w-full h-full">
-        <Typography
-          variant="h2"
-          component="h2"
-          className=" relative top-80 right-8 text-5xl font-semibold text-customOffWhite mb-4"
-        >
-          Hello.
-        </Typography>
-      </div> */}
+    <section className="items-center relative z-10 h-screen bg-customImg bg-cover bg-center">
+      {/* Low-opacity overlay */}
+      <div className="absolute inset-0 bg-black/10" />
 
-      {/* <Typography
-        variant="body1"
-        className="text-xl mb-8 max-w-xl text-customOffWhite text-left"
+      {/* Centered minimalist text */}
+      <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        className="relative z-20 h-full bottom-8 flex flex-col items-center justify-center text-center"
       >
-        A Frontend Developer with a passion for turning complex ideas into
-        functional, responsive, and visually stunning web applications. With
-        expertise in ReactJS, Material-UI, and Tailwind CSS, I build experiences
-        that users love to interact with.
-      </Typography> */}
-      {/* <a
-        href="#projects"
-        className="relative top-80 px-4 py-3 bg-customOffWhite rounded-xl text-gray-900 hover:bg-colorBronze hover:text-colorSomeBlack transition"
-      >
-        See My Work
-      </a> */}
+        <h1 className="text-4xl md:text-5xl font-light text-white mb-2">
+          Frontend Developer
+        </h1>
+        <p className="text-lg md:text-xl text-white/80 font-mono">
+          REACT JS | NEXT JS | SASS | TAILWIND
+        </p>
+      </motion.div>
     </section>
   );
 }
